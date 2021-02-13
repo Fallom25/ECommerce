@@ -1,0 +1,14 @@
+header.navbar--fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar--active {
+  background-color: #fff;
+  color: black;
+}
+
+.active {
+  border: 1px solid #302f2f;
+}

@@ -1,0 +1,20 @@
+.info-section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;;
+  &--center{
+    text-align: center;
+    margin: 25px;
+  }
+  &__desc{
+    
+    &-bolder{
+      font-weight: bolder;
+    }
+  }
+
+  &__button{
+    margin:50px;
+  }
+
+}
