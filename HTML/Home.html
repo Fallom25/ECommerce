@@ -6,10 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/footer.css">
+  <link rel="stylesheet" href="../CSS/bootsrap.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link rel="stylesheet" href="/CSS/info-section.css">
+  <link rel="stylesheet" href="/CSS/carousel.css">
   <title>Nail Fanatics</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #fff;">
+<body background="/Pictures/bg1.jpg" style="background-repeat: no-repeat;
+background-size: cover;">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light navbar--fixed navbar--active" >
     <div class="container-fluid ">
       <a class="navbar-brand" href="Home.html">
         <img src="../Pictures/logopic.jpg" alt="logo" width="75px" height="75px">
@@ -23,39 +29,44 @@
             <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="/HTML/Services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="/HTML/AboutUs.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Book an Appointment</a>
+            <a class="nav-link" href="/HTML/Book.html">Book an Appointment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+            <a class="nav-link" href="/HTML/Cart.html">Cart</a>
           </li>
         </ul>
       </div>    
     </div>
   </nav>
-  <header>
-    <div>
-      <h2>Experience a different kind of Salon</h2>
+
+  <header class="header ">
+    <div class="header__title">
+      <h1 class="display-1 header__title--bold header__title--center" >Experience a different kind of Salon</h1>
     </div>
     <div>
-      <img src="../Pictures/naillogo.jpg" class="img-fluid" alt="Nail Logo">
+      <img src="../Pictures/naillogo2.jpg" class="img-fluid" alt="Nail Logo">
     </div>
   </header>
+
   <main>
-    <div>
-      <p>Custom and unique nail designs for events, specials occasions or everyday wear. Tailor your nails to your hearts desire!</p>
-      <p>At Nail Fanatics we consult with our clients one-on-one to ensure a safe, hygienic and pain-free experience so that you walk away with the nails you have always wanted.</p>
+    <div class="info-section">
+      <div class="info-section--center">
+        <p class="info-section__desc-bolder">Custom and unique nail designs for events, specials occasions or everyday wear. Tailor your nails to your hearts desire!</p>
+        <p class="info-section__desc-bolder">At Nail Fanatics we consult with our clients one-on-one to ensure a safe, hygienic and pain-free experience so that you walk away with the nails you have always wanted.</p>
+      </div>
+      <div class="info-section--center">
+        <h3>Appointments essential</h3>
+        <a class="btn btn-dark btn-lg info-section__button" href="/HTML/Book.html" role="button">Book Now</a>
+      </div>
     </div>
-    <div>
-      <h3>Appointments essential</h3>
-      <a class="btn btn-dark" href="#" role="button">Book Now</a>
-    </div>
-    <div id="nailscarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div id="nailscarousel" class="carousel slide container" data-bs-ride="carousel" >
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#nailscarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#nailscarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -67,43 +78,43 @@
       </div>
       <div class="carousel-inner" >
         <div class="carousel-item active">
-          <img src="../Pictures/nails1.jpg" class="d-block w-100" alt="Manicure">
+          <img src="../Pictures/nails1.jpg" class="d-block w-100 carousel__img" alt="Manicure">
           <div class="carousel-caption d-none d-md-block">
             <h5>Manicure - $20</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails2.jpg" class="d-block w-100" alt="Overlay">
+          <img src="../Pictures/nails2.jpg" class="d-block w-100 carousel__img" alt="Overlay">
           <div class="carousel-caption d-none d-md-block">
             <h5>Overlay - $40</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails3.jpg" class="d-block w-100" alt="Overlay Plus">
+          <img src="../Pictures/nails3.jpg" class="d-block w-100 carousel__img" alt="Overlay Plus">
           <div class="carousel-caption d-none d-md-block">
             <h5>Overlay Plus - $50</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails4.jpg" class="d-block w-100" alt="Overlay Premium">
+          <img src="../Pictures/nails4.jpg" class="d-block w-100 carousel__img" alt="Overlay Premium">
           <div class="carousel-caption d-none d-md-block">
             <h5>Overlay Premium - $60</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails5.jpg" class="d-block w-100" alt="Extensions">
+          <img src="../Pictures/nails5.jpg" class="d-block w-100 carousel__img" alt="Extensions">
           <div class="carousel-caption d-none d-md-block">
             <h5>Extensions - $75</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails6.jpg" class="d-block w-100" alt="Extensions Plus">
+          <img src="../Pictures/nails6.jpg" class="d-block w-100 carousel__img" alt="Extensions Plus">
           <div class="carousel-caption d-none d-md-block">
             <h5>Extensions Plus - $85</h5>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../Pictures/nails7.jpg" class="d-block w-100" alt="Extensions Premium">
+          <img src="../Pictures/nails7.jpg" class="d-block w-100 carousel__img" alt="Extensions Premium">
           <div class="carousel-caption d-none d-md-block">
             <h5>Extensions Premium - $95</h5>
           </div>
@@ -119,17 +130,21 @@
       </button>
     </div>
   </main>
-  <footer>
+
+  <footer class="footer">
     <div class="footer__icons">
-      <a href="https://www.facebook.com/Nail-Fanatics-106540047611830/?ref=page_internal">
-        <i class="fa fa-facebook-square fa-4x icon" aria-hidden="true"></i>
+      <a href="https://www.facebook.com/Nail-Fanatics-106540047611830/?ref=page_internal" target="_blank">
+        <i class="fa fa-facebook-square fa-4x icon footer__icons--brown img-fluid" aria-hidden="true"></i>
       </a>
-      <a href="mailto:loyd3149@yahoo.com.au">
-        <i class="fa fa-envelope fa-4x icon"  aria-hidden="true"></i>
+      <a href="mailto:loyd3149@yahoo.com.au" target="_blank">
+        <i class="fa fa-envelope fa-4x icon footer__icons--brown img-fluid"  aria-hidden="true"></i>
       </a>   
     </div>
-    <img src="../Pictures/naillogo.jpg" class="img-fluid" alt="Nail Logo" width="500px" height="500px">
-    <div>
+    <div class="footer__img">
+      <img src="../Pictures/naillogo.jpg" class="img-fluid " alt="Nail Logo" width="500px" height="500px">
+    </div>
+    
+    <div class="footer__cr">
       <p>
         Designed by Madd Sheppard 
         <i class="fa fa-copyright"  aria-hidden="true"></i>
@@ -139,7 +154,18 @@
       <p>^.^</p>
     </div>
  </footer>
+ <script>
+   const navbar = document.querySelector('.navbar--fixed');
+window.onscroll = () => {
+    if (window.scrollY > 75) {
+        navbar.classList.add('navbar--active');
+    } else {
+        navbar.classList.remove('navbar--active');
+    }
+};
+ </script>
  <script src=“https://code.jquery.com/jquery-3.5.1.js” integrity=“sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=” crossorigin=“anonymous”></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </body>
 </html>
