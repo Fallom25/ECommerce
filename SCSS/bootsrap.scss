@@ -16,3 +16,13 @@ header.navbar--fixed {
 .active{
   border:1px solid rgb(48, 47, 47);
 }
+
+.grid{
+  &--layout{
+    margin-bottom:200px;
+  }
+  
+  &__item{
+    margin-bottom:20px;
+  }
+}

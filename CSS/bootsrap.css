@@ -12,3 +12,10 @@ header.navbar--fixed {
 .active {
   border: 1px solid #302f2f;
 }
+
+.grid--layout {
+  margin-bottom: 200px;
+}
+.grid__item {
+  margin-bottom: 20px;
+}
