@@ -1,0 +1,25 @@
+header.navbar--fixed {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar--active {
+  background-color: #BFAB99;
+}
+
+.active {
+  border: 1px solid cornsilk;
+}
+
+.grid--layout {
+  margin-bottom: 200px;
+}
+.grid__item {
+  margin-bottom: 20px;
+}
+
+.button--brown {
+  background-color: #733702 !important;
+  color: cornsilk !important;
+}

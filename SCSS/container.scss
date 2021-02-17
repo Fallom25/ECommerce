@@ -1,0 +1,20 @@
+.container{
+  &__img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    &--sm{
+      height: 200px;
+      width: 400px;
+      margin-bottom: 50px;
+    }
+  }
+  &__row{
+    margin-bottom: 20px;
+  }
+
+  &__break{
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,50 @@
+.footer{
+  margin:50px;
+  
+  &__icons{
+    display:flex;
+    justify-content: space-around;
+
+    &--brown{
+      color:#733702;
+      border-radius:50%;
+      
+
+      &:hover{
+        color:#BFAB99;
+      }
+
+      &:active{
+
+        text-shadow: 10px 10px 10px gray;
+      }
+    }
+    
+    @keyframes op{
+      0%{
+        opacity:0;
+      }
+      50%{
+        opacity:1;
+      }
+      100%{
+        opacity:0;
+      }
+      }
+    
+
+  }
+
+  &__img{
+    display:flex;
+    justify-content:center;
+    margin:0px;
+    animation:op 5s ease infinite;
+  }
+
+  &__cr{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+}
