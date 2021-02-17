@@ -3,15 +3,15 @@
   
   &__icons{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     &--brown{
-      color:rgb(102, 51, 0);
+      color:#733702;
       border-radius:50%;
       
 
       &:hover{
-        color:bisque;
+        color:#BFAB99;
       }
 
       &:active{

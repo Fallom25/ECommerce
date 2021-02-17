@@ -8,13 +8,13 @@ header.navbar--fixed {
 
 .navbar{
   &--active {
-    background-color:#fff;
-    color: black;
+    background-color:#BFAB99;
+    // color: #BFAB99;
   }
 }
 
 .active{
-  border:1px solid rgb(48, 47, 47);
+  border:1px solid cornsilk;
 }
 
 .grid{
@@ -26,3 +26,11 @@ header.navbar--fixed {
     margin-bottom:20px;
   }
 }
+
+.button{
+  &--brown{
+      background-color: #733702 !important; 
+      color:cornsilk !important;
+  }
+}
+
