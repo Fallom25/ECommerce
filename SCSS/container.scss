@@ -2,7 +2,7 @@
   &__img{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     &--sm{
       height: 200px;

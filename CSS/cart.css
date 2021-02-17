@@ -1,0 +1,21 @@
+.shop-item {
+  margin: 30px;
+}
+.shop-item__title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.shop-item__img {
+  height: 250px;
+}
+.shop-item__details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.shop-item__price {
+  flex-grow: 1;
+}

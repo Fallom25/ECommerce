@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 .header__title {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 .header__title--bold {
   font-weight: bolder;

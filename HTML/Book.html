@@ -17,7 +17,7 @@
   <title>Book Appointment</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #fff;">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #BFAB99;">
     <div class="container-fluid ">
       <a class="navbar-brand" href="Home.html">
         <img src="../Pictures/logopic.jpg" alt="logo" width="75px" height="75px">
@@ -40,7 +40,7 @@
             <a class="nav-link active" aria-current="page" href="/HTML/Book.html">Book an Appointment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/HTML/Cart.html">Cart</a>
+            <a class="nav-link" href="/HTML/Cart.html">Cart</a>
           </li>
         </ul>
       </div>    
@@ -67,28 +67,28 @@
       <div class="form-group">
         <div class="row justify-content-center grid__item">
           <div class="col-md-3">
-            <label for="first_name">First Name: </label>
+            <label for="first_name"><br>First Name: </label>
             <input type="text" class="form-control form-control-lg " name="first_name" id="first_name" placeholder="Required" required>
           </div>
           <div class="col-md-3">
-            <label for="last_name">Last Name: </label>
+            <label for="last_name"><br>Last Name: </label>
             <input type="text" class="form-control form-control-lg" name="last_name" id="last_name" >
           </div>
         </div>
         <div class="row justify-content-center  grid__item">
           <div class="col-md-3">
-            <label for="email">Email Address: </label>
-            <input type="text" class="form-control form-control-lg" name="email" id="email" placeholder="name@example.com       Required" required>
+            <label for="email"><br>Email Address: </label>
+            <input type="text" class="form-control form-control-lg" name="email" id="email" placeholder="name@example.com Required" required>
           </div>
           <div class="col-md-3">
-            <label for="phone_number">Phone Number: </label>
+            <label for="phone_number"><br>Phone Number: </label>
             <input type="phone" class="form-control form-control-lg" id="phone_number" placeholder="Enter Phone Number">
             <small id="phoneHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
           </div>
         </div>
         <div class="row justify-content-center  grid__item">
           <div class="col-md-3">
-            <p>Which Service are you interested in?</p>
+            <p><br>Which Service are you interested in?</p>
             <!--which service are you interested in - radio -->
             <input type="radio" name="services" id="manicure" value="manicure">
             <label for="manicure">Manicure</label>
@@ -100,7 +100,7 @@
             <label for="other">Other</label>
           </div>
           <div class="col-md-3">
-            <p>Would you like any Add ons?</p>
+            <p><br>Would you like any Add ons?</p>
             <!-- would you like any add ons - checkbox -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" value="nail_art" id="nail_art">
@@ -118,9 +118,9 @@
         </div>
         <div class="row justify-content-center  grid__item">
           <div class="col-md-3">
-            <p>Feedback Type</p>
+            <p><br>Feedback Type</p>
             <!--Feedback/question* - scroll down-->
-            <select class="custom-select form-control-lg">
+            <select class="custom-select form-control">
               <option value="question">Question about Services</option>
               <option value="review">Review</option>
               <option value="general">General Enquiry</option>
@@ -129,19 +129,19 @@
           </div>
           <div class="col-md-3">
             <!--Message-->
-            <label for="message">Message: </label><br><br>
+            <label for="message" style="padding-bottom:15px;"><br>Message: </label><br>
             <textarea name="message" class ="message" id="message" rows="2" cols="50" placeholder="--Please Enter Text Here--
             Thank you and have a great day!!!" ></textarea>
           </div>
         </div>
-        <div class="row justify-content-center  grid__item">
-          <div class="col-md-3">
+        <div class="row justify-content-center grid__item">
+          <div class="col-md-3 text-end">
             <!--Clear-->
-            <input type="reset" value ="Clear">
+            <button type="reset" class="btn btn-lg button--brown" >Clear</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <!--Submit-->
-            <input type="submit" value="Submit"> 
+            <button type="submit" class="btn btn-lg button--brown">Submit</button>
           </div>
         </div>
       </div> 

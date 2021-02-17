@@ -1,0 +1,66 @@
+.content{
+	&-section{
+		&__header{
+  
+	  }
+  }
+}
+
+.shop-items{
+
+}
+.shop-item{
+	margin:30px;
+	&__title{
+		display:block;
+		width:100%;
+		text-align: center;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	&__img{
+		height:250px;
+	}
+	&__details{
+		display:flex;
+		align-items: center;
+		padding: 5px;
+	}
+	&__price{
+		flex-grow:1;
+	}
+	&__button{
+
+	}
+
+}
+
+.cart{
+	&-item{
+		&__img{
+
+		}
+		&__title{
+
+		}
+		&__quantity{
+			&--input{
+
+			}
+		}
+		&__price{
+
+		}
+	}
+	&-total{
+		&__title{
+
+		}
+		&__price{
+
+		}
+		&__button{
+
+		}
+	}
+}

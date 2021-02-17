@@ -3,14 +3,14 @@
 }
 .footer__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .footer__icons--brown {
-  color: #663300;
+  color: #733702;
   border-radius: 50%;
 }
 .footer__icons--brown:hover {
-  color: bisque;
+  color: #BFAB99;
 }
 .footer__icons--brown:active {
   text-shadow: 10px 10px 10px gray;

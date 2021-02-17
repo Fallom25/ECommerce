@@ -5,12 +5,11 @@ header.navbar--fixed {
 }
 
 .navbar--active {
-  background-color: #fff;
-  color: black;
+  background-color: #BFAB99;
 }
 
 .active {
-  border: 1px solid #302f2f;
+  border: 1px solid cornsilk;
 }
 
 .grid--layout {
@@ -18,4 +17,9 @@ header.navbar--fixed {
 }
 .grid__item {
   margin-bottom: 20px;
+}
+
+.button--brown {
+  background-color: #733702 !important;
+  color: cornsilk !important;
 }
